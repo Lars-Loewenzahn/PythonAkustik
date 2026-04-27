@@ -1,0 +1,22 @@
+Anforderungen: 
+
+- unteilbarkeit
+    z.b. der Entwicklungsgegenstand muss eine True positive Erkennungsleistung erreichen
+- Testbarkeit
+    z.b. der Entwicklungsgegenstand muss in einer Testumgebung validiert werden können (nicht immer möglich)
+- Redundanz
+    keine Anforderung darf mehrfach da sein (In der Industrie wird oft der Preis daran fest gemacht)
+- Konsistenz
+    alle Anforderungen müssen konsistent sein (keine widersprüche)
+- Nur Aktiv nicht Passiv
+    es muss festgelegt sein, wer macht was. (Welche Ursache muss wo umgesetzt werden)
+    (Wer ist hier ein Bauteil oder Code oder Prozess oder Mensch oder oder oder)
+- Versuche den Entwicklungsgegenstand als Statemaschine darzustellen. 
+- Ständiger neustart solle möglich sein (UML Diagramm)
+- Genaue Darstellung der Substates
+- Grobe Anforderung werden mit feineren Anforderungen verknüpft (Ähnlich eines Baumdiagramms)
+- Anforderungen bekommen einen Identifier. 
+- Diagnose Jobs für die Substates
+- Fehlerhandling
+- Darstellen in einer Kaskade (ähnlich einem Baumdiagramm)
+- Aus Satz A des Kunden werden Satz 1, 2, 3,... auf der rechten Seite
