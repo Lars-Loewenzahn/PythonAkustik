@@ -1,6 +1,6 @@
 Anforderungen: 
 
-- unteilbarkeit
+- Unteilbarkeit
     z.b. der Entwicklungsgegenstand muss eine True positive Erkennungsleistung erreichen
 - Testbarkeit
     z.b. der Entwicklungsgegenstand muss in einer Testumgebung validiert werden können (nicht immer möglich)
@@ -8,6 +8,8 @@ Anforderungen:
     keine Anforderung darf mehrfach da sein (In der Industrie wird oft der Preis daran fest gemacht)
 - Konsistenz
     alle Anforderungen müssen konsistent sein (keine widersprüche)
+- Verbindlichkeiten:
+    wenn das dann MUSS das....
 - Nur Aktiv nicht Passiv
     es muss festgelegt sein, wer macht was. (Welche Ursache muss wo umgesetzt werden)
     (Wer ist hier ein Bauteil oder Code oder Prozess oder Mensch oder oder oder)
@@ -20,3 +22,5 @@ Anforderungen:
 - Fehlerhandling
 - Darstellen in einer Kaskade (ähnlich einem Baumdiagramm)
 - Aus Satz A des Kunden werden Satz 1, 2, 3,... auf der rechten Seite
+- Was ist Doors ( IBM Anfoderungsmanagment Software ) oder CodeBEAMER
+- Aufteilen in Features

@@ -133,6 +133,8 @@
 - Software-Updates möglich?
 - Modularer Aufbau gewünscht?
 - Mehrkanalfähigkeit für spätere Erweiterungen?
+- Was ist die Performanceanalyse?
+- Was ist der Audiostream?
 
 ### 8.2. Wartung & Support
 - Wer betreut das System?
