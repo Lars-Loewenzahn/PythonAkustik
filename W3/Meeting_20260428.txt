@@ -1,0 +1,70 @@
+A
+500 Mb
+
+B
+Zeitgewichtung nach Norm International Electrotechnical Commission 61672-2
+
+C
+Nur eingesetzt Mikrofon
+
+D
+Messdauer / wird von uns festgelegt
+
+E
+Onboard Filter ist eine Aufspaltung im logarithmischen Frequenzbereich
+
+F
+Kein Display
+
+G
+Streamlit
+
+H
+SSI oder USB als Commandline Schnittstelle
+
+I
+bis 48 kHz
+
+K
+keine Richtcharakteristik
+
+L
+24 bit / Datenrate 32 möglich
+
+L
+Gehäuse
+
+M
+Akku wäre cool + USB Betrieb reicht
+
+N
+12 h Aufzeichnungsdauer
+
+O
+94 dB 1 kHz
+→ Mehr Recherche
+Differenzspeicher / später addieren
+
+P
+kein Gain Faktor
+
+Q
+WiFi Chip genutzt
+
+R
+Integration im tapy (tapy ist eine Senosrlibery der TUB) - CLI für viele Geräte
+
+S
+JSON Output Format → siehe Streamlit
+
+T
+Checksum → Datenintegrität
+
+U
+Lizenzmodell → Unit / Gerne GPL
+
+V
+Alle zwei Wochen
+
+W
+Vergleichsgerät NTi Audio XL2
