@@ -1,0 +1,38 @@
+@startuml SPL-Meter-Statechart
+hide empty description
+
+[*] --> Boot
+Boot --> Idle : init_ok
+Boot --> Fehler : init_fail
+
+Idle --> Messen : start_measure\n[input_ready && (calibrated || allow_uncalibrated)]
+Messen --> Idle : stop_measure
+Messen --> Kalibrieren : start_calibration
+Kalibrieren --> Idle : calib_done
+Kalibrieren --> Fehler : calib_abort
+
+Idle --> Diagnose : start_diag
+Diagnose --> Idle : diag_done
+
+state Messen {
+  [*] --> Aktiv
+  Aktiv : entry / open_stream(); start_dsp()
+  Aktiv : do / process_audio(); update_gui(); check_overruns()
+  Aktiv : exit / stop_dsp(); flush_buffers()
+  Aktiv --> Aufzeichnen : start_record
+  Aufzeichnen : entry / open_sink(); init_checksum()
+  Aufzeichnen : exit / close_sink(); write_checksum()
+  Aufzeichnen --> Aktiv : stop_record
+  Aktiv --> Fehler : error
+  Aufzeichnen --> Fehler : error
+}
+
+Fehler : entry / safe_degrade(); log_error()
+Fehler : do / backoff_retry()
+Fehler --> Idle : recover
+
+note right of Fehler
+  Streams schließen, sicherer Zustand, Backoff-Retry
+end note
+
+@enduml

@@ -1,3 +1,23 @@
+
+SPL Meter mit Raspberry Pi Zero W
+Python und trotzdem Embedded: Der Raspberry Pi Zero lässt sich mit Python
+programmieren und ist trotzdem hardware-nah und effizient; passend für die
+Umsetzung eines echtzeitfähigen SPL-Meters!
+Muss:
+Empfang eines digitalen Audiosignals eines Mikrofons (USB, I2S)
+Echtzeitverarbeitung des Audiostreams
+Zeitbewertung (eq, fast, slow)
+Frequenzbewertung (Z, A)
+Oktavbandfilter und Terzbandfilter (A, Z)
+Lightweight GUI (Web-based)
+Kann:
+Speichern des Audiostreams einer Messung
+Kalibrationsmöglichkeit
+Performanceanalyse
+CLI / TUI
+
+
+
 A
 500 Mb
 
