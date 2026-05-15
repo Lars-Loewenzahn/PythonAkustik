@@ -1,0 +1,168 @@
+{
+  "phase_order": [
+    "Audioeingang",
+    "Signal",
+    "Spektrum",
+    "Kalibrierung",
+    "API",
+    "UI",
+    "Export",
+    "Recording (opt.)",
+    "CLI (opt.)",
+    "Dokumentation",
+    "Hardware",
+    "Tests",
+    "Präsentation"
+  ],
+  "phase_colors": {
+    "Audioeingang": "#4e79a7",
+    "Signal": "#59a14f",
+    "Spektrum": "#9c755f",
+    "Kalibrierung": "#f28e2b",
+    "API": "#76b7b2",
+    "UI": "#edc948",
+    "Export": "#af7aa1",
+    "Recording (opt.)": "#ff9da7",
+    "CLI (opt.)": "#bab0ac",
+    "Dokumentation": "#86bc86",
+    "Hardware": "#d37295",
+    "Tests": "#8cd3ff",
+    "Präsentation": "#c0c0c0"
+  },
+  "tasks": [
+    {
+      "phase": "Audioeingang",
+      "task": "Audioeingang",
+      "start": "2026-05-15",
+      "end": "2026-05-28"
+    },
+    {
+      "phase": "Signal",
+      "task": "Signal",
+      "start": "2026-05-22",
+      "end": "2026-06-11"
+    },
+    {
+      "phase": "Spektrum",
+      "task": "Spektrum",
+      "start": "2026-06-12",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Kalibrierung",
+      "task": "Kalibrierung",
+      "start": "2026-06-05",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "API",
+      "task": "API",
+      "start": "2026-05-29",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "UI",
+      "task": "UI",
+      "start": "2026-06-05",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Export",
+      "task": "Export",
+      "start": "2026-06-19",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Recording (opt.)",
+      "task": "Recording (opt.)",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "CLI (opt.)",
+      "task": "CLI (opt.)",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Dokumentation",
+      "start": "2026-05-15",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Hardware",
+      "task": "Hardware",
+      "start": "2026-05-15",
+      "end": "2026-05-21"
+    },
+    {
+      "phase": "Hardware",
+      "task": "Hardware",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "Hardware",
+      "task": "Hardware",
+      "start": "2026-06-12",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Tests",
+      "task": "Tests",
+      "start": "2026-05-22",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Präsentation",
+      "start": "2026-05-15",
+      "end": "2026-05-18"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Präsentation",
+      "start": "2026-05-29",
+      "end": "2026-06-01"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Präsentation",
+      "start": "2026-06-12",
+      "end": "2026-06-15"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Präsentation",
+      "start": "2026-06-26",
+      "end": "2026-07-04"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-05-18",
+      "label": "Zwischenbericht #1"
+    },
+    {
+      "date": "2026-06-01",
+      "label": "Review #2"
+    },
+    {
+      "date": "2026-06-15",
+      "label": "Review #3"
+    },
+    {
+      "date": "2026-06-29",
+      "label": "Review #4"
+    },
+    {
+      "date": "2026-06-30",
+      "label": "Semesterende"
+    },
+    {
+      "date": "2026-07-04",
+      "label": "Abgabe 00:01"
+    }
+  ]
+}

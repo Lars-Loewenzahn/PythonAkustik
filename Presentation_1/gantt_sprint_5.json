@@ -1,0 +1,118 @@
+{
+  "phase_order": [
+    "Audioeingang",
+    "Signal",
+    "Spektrum",
+    "Kalibrierung",
+    "API",
+    "UI",
+    "Export",
+    "Recording (opt.)",
+    "CLI (opt.)",
+    "Dokumentation",
+    "Hardware",
+    "Tests",
+    "Präsentation"
+  ],
+  "phase_colors": {
+    "Audioeingang": "#4e79a7",
+    "Signal": "#59a14f",
+    "Spektrum": "#9c755f",
+    "Kalibrierung": "#f28e2b",
+    "API": "#76b7b2",
+    "UI": "#edc948",
+    "Export": "#af7aa1",
+    "Recording (opt.)": "#ff9da7",
+    "CLI (opt.)": "#bab0ac",
+    "Dokumentation": "#86bc86",
+    "Hardware": "#d37295",
+    "Tests": "#8cd3ff",
+    "Präsentation": "#c0c0c0"
+  },
+  "tasks": [
+    {
+      "phase": "Spektrum",
+      "task": "FEAT-SPC-001 design_octave_filterbank",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Kalibrierung",
+      "task": "FEAT-CAL-002 compute_cal_factor",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Kalibrierung",
+      "task": "FEAT-CAL-003 save_calibration",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Kalibrierung",
+      "task": "FEAT-CAL-004 load_calibration",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Kalibrierung",
+      "task": "FEAT-CAL-005 apply_calibration",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Kalibrierung",
+      "task": "FEAT-CAL-006 detect_cal_tone_1khz(window_s)",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "API",
+      "task": "FEAT-API-007 api_detect_cal_1khz",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "UI",
+      "task": "FEAT-UI-002 ui_controls_page",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Signalverarbeitung – Formeln/Annahmen",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "API‑Dokumentation",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Hardware",
+      "task": "Gehäuse‑Design",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Tests",
+      "task": "Integrationstests",
+      "start": "2026-06-12",
+      "end": "2026-06-18"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Review #3 vorbereiten",
+      "start": "2026-06-12",
+      "end": "2026-06-15"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-06-15",
+      "label": "Review #3"
+    }
+  ]
+}

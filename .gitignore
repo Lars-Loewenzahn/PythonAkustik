@@ -94,3 +94,6 @@ Thumbs.db
 
 # Project specific
 **/__pycache__/
+
+# Secrets
+Presentation_1\code_base.py

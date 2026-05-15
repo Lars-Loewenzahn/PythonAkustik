@@ -1,0 +1,100 @@
+{
+  "phase_order": [
+    "Audioeingang",
+    "Signal",
+    "Spektrum",
+    "Kalibrierung",
+    "API",
+    "UI",
+    "Export",
+    "Recording (opt.)",
+    "CLI (opt.)",
+    "Dokumentation",
+    "Hardware",
+    "Tests",
+    "Präsentation"
+  ],
+  "phase_colors": {
+    "Audioeingang": "#4e79a7",
+    "Signal": "#59a14f",
+    "Spektrum": "#9c755f",
+    "Kalibrierung": "#f28e2b",
+    "API": "#76b7b2",
+    "UI": "#edc948",
+    "Export": "#af7aa1",
+    "Recording (opt.)": "#ff9da7",
+    "CLI (opt.)": "#bab0ac",
+    "Dokumentation": "#86bc86",
+    "Hardware": "#d37295",
+    "Tests": "#8cd3ff",
+    "Präsentation": "#c0c0c0"
+  },
+  "tasks": [
+    {
+      "phase": "Signal",
+      "task": "FEAT-SIG-003 design_a_weighting",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "Signal",
+      "task": "FEAT-SIG-004 apply_weighting",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "API",
+      "task": "FEAT-API-001 start_http_api",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "API",
+      "task": "FEAT-API-002 api_get_status",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Betrieb/Setup‑Guide",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Anforderungen pflegen",
+      "start": "2026-05-29",
+      "end": "2026-06-01"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Testplan",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "Hardware",
+      "task": "Inbetriebnahme‑Check",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "Tests",
+      "task": "Unit‑Tests",
+      "start": "2026-05-29",
+      "end": "2026-06-04"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Review #2 vorbereiten",
+      "start": "2026-05-29",
+      "end": "2026-06-01"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-06-01",
+      "label": "Review #2"
+    }
+  ]
+}

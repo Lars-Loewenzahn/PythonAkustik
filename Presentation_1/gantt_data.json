@@ -1,0 +1,74 @@
+{
+  "phase_order": [
+    "Konzept",
+    "Prototyping",
+    "Producing",
+    "Testing",
+    "Finalisierung"
+  ],
+  "phase_colors": {
+    "Konzept": "#4e79a7",
+    "Prototyping": "#C20E1A",
+    "Producing": "#ff8c00",
+    "Testing": "#F1C40F",
+    "Finalisierung": "#2ca02c"
+  },
+  "tasks": [
+    {
+      "phase": "Konzept",
+      "task": "Anforderungen konsolidieren & Architektur-Entwurf",
+      "start": "2026-05-10",
+      "end": "2026-05-18"
+    },
+    {
+      "phase": "Prototyping",
+      "task": "Audio-I/O & Pipeline-Skelett, GUI-Grundfunktionen",
+      "start": "2026-05-18",
+      "end": "2026-06-01"
+    },
+    {
+      "phase": "Producing",
+      "task": "Zeitbewertungen F/S, Leq; Frequenzbewertungen A/Z",
+      "start": "2026-06-01",
+      "end": "2026-06-15"
+    },
+    {
+      "phase": "Testing",
+      "task": "Oktav-/Terzbänder; Kalibrierung; Fehlerhandling; Export",
+      "start": "2026-06-15",
+      "end": "2026-06-29"
+    },
+    {
+      "phase": "Finalisierung",
+      "task": "Vergleich Referenzgerät; Doku-Final; Packaging/Release",
+      "start": "2026-06-29",
+      "end": "2026-07-04"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-05-18",
+      "label": "Zwischenbericht #1"
+    },
+    {
+      "date": "2026-06-01",
+      "label": "Review #2"
+    },
+    {
+      "date": "2026-06-15",
+      "label": "Review #3"
+    },
+    {
+      "date": "2026-06-29",
+      "label": "Review #4"
+    },
+    {
+      "date": "2026-06-30",
+      "label": "Semesterende"
+    },
+    {
+      "date": "2026-07-04",
+      "label": "Abgabe 00:01"
+    }
+  ]
+}

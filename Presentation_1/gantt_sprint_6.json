@@ -1,0 +1,150 @@
+{
+  "phase_order": [
+    "Audioeingang",
+    "Signal",
+    "Spektrum",
+    "Kalibrierung",
+    "API",
+    "UI",
+    "Export",
+    "Recording (opt.)",
+    "CLI (opt.)",
+    "Dokumentation",
+    "Hardware",
+    "Tests",
+    "Präsentation"
+  ],
+  "phase_colors": {
+    "Audioeingang": "#4e79a7",
+    "Signal": "#59a14f",
+    "Spektrum": "#9c755f",
+    "Kalibrierung": "#f28e2b",
+    "API": "#76b7b2",
+    "UI": "#edc948",
+    "Export": "#af7aa1",
+    "Recording (opt.)": "#ff9da7",
+    "CLI (opt.)": "#bab0ac",
+    "Dokumentation": "#86bc86",
+    "Hardware": "#d37295",
+    "Tests": "#8cd3ff",
+    "Präsentation": "#c0c0c0"
+  },
+  "tasks": [
+    {
+      "phase": "Spektrum",
+      "task": "FEAT-SPC-002 compute_band_levels",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Spektrum",
+      "task": "FEAT-SPC-003 downsample_for_bands",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Kalibrierung",
+      "task": "FEAT-CAL-007 calibrate_auto",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "API",
+      "task": "FEAT-API-006 api_export_session",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "API",
+      "task": "FEAT-API-008 api_calibrate_auto",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "UI",
+      "task": "FEAT-UI-003 ui_config_page",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Export",
+      "task": "FEAT-EXP-001 export_session_json",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Export",
+      "task": "FEAT-EXP-002 write_sha256",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "API‑Dokumentation",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "JSON‑Schema",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Kalibrier‑Prozedur",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Hardware",
+      "task": "3D‑Druck",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Hardware",
+      "task": "Stromversorgung (Akkutest)",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Tests",
+      "task": "Integrationstests",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    },
+    {
+      "phase": "Tests",
+      "task": "Systemtests (Pi)",
+      "start": "2026-06-19",
+      "end": "2026-06-25"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-05-18",
+      "label": "Zwischenbericht #1"
+    },
+    {
+      "date": "2026-06-01",
+      "label": "Review #2"
+    },
+    {
+      "date": "2026-06-15",
+      "label": "Review #3"
+    },
+    {
+      "date": "2026-06-29",
+      "label": "Review #4"
+    },
+    {
+      "date": "2026-06-30",
+      "label": "Semesterende"
+    },
+    {
+      "date": "2026-07-04",
+      "label": "Abgabe 00:01"
+    }
+  ]
+}

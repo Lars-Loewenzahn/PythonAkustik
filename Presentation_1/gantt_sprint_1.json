@@ -1,0 +1,82 @@
+{
+  "phase_order": [
+    "Audioeingang",
+    "Signal",
+    "Spektrum",
+    "Kalibrierung",
+    "API",
+    "UI",
+    "Export",
+    "Recording (opt.)",
+    "CLI (opt.)",
+    "Dokumentation",
+    "Hardware",
+    "Tests",
+    "Präsentation"
+  ],
+  "phase_colors": {
+    "Audioeingang": "#4e79a7",
+    "Signal": "#59a14f",
+    "Spektrum": "#9c755f",
+    "Kalibrierung": "#f28e2b",
+    "API": "#76b7b2",
+    "UI": "#edc948",
+    "Export": "#af7aa1",
+    "Recording (opt.)": "#ff9da7",
+    "CLI (opt.)": "#bab0ac",
+    "Dokumentation": "#86bc86",
+    "Hardware": "#d37295",
+    "Tests": "#8cd3ff",
+    "Präsentation": "#c0c0c0"
+  },
+  "tasks": [
+    {
+      "phase": "Audioeingang",
+      "task": "FEAT-AUD-001 init_audio_stream",
+      "start": "2026-05-15",
+      "end": "2026-05-21"
+    },
+    {
+      "phase": "Audioeingang",
+      "task": "FEAT-AUD-002 audio_callback",
+      "start": "2026-05-15",
+      "end": "2026-05-21"
+    },
+    {
+      "phase": "Audioeingang",
+      "task": "FEAT-AUD-003 ring_push/pop",
+      "start": "2026-05-15",
+      "end": "2026-05-21"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Anforderungen pflegen",
+      "start": "2026-05-15",
+      "end": "2026-05-21"
+    },
+    {
+      "phase": "Hardware",
+      "task": "I2S‑Verdrahtung INMP441",
+      "start": "2026-05-15",
+      "end": "2026-05-21"
+    },
+    {
+      "phase": "Hardware",
+      "task": "Systemkonfiguration (I2S/ALSA)",
+      "start": "2026-05-15",
+      "end": "2026-05-21"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Zwischenbericht #1 vorbereiten",
+      "start": "2026-05-15",
+      "end": "2026-05-18"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-05-18",
+      "label": "Zwischenbericht #1"
+    }
+  ]
+}

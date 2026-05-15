@@ -1,0 +1,110 @@
+{
+  "phase_order": [
+    "Audioeingang",
+    "Signal",
+    "Spektrum",
+    "Kalibrierung",
+    "API",
+    "UI",
+    "Export",
+    "Recording (opt.)",
+    "CLI (opt.)",
+    "Dokumentation",
+    "Hardware",
+    "Tests",
+    "Präsentation"
+  ],
+  "phase_colors": {
+    "Audioeingang": "#4e79a7",
+    "Signal": "#59a14f",
+    "Spektrum": "#9c755f",
+    "Kalibrierung": "#f28e2b",
+    "API": "#76b7b2",
+    "UI": "#edc948",
+    "Export": "#af7aa1",
+    "Recording (opt.)": "#ff9da7",
+    "CLI (opt.)": "#bab0ac",
+    "Dokumentation": "#86bc86",
+    "Hardware": "#d37295",
+    "Tests": "#8cd3ff",
+    "Präsentation": "#c0c0c0"
+  },
+  "tasks": [
+    {
+      "phase": "Export",
+      "task": "FEAT-EXP-003 prune_old_exports",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Recording (opt.)",
+      "task": "FEAT-REC-001 start_recording_wav",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Recording (opt.)",
+      "task": "FEAT-REC-002 recording_consumer",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Recording (opt.)",
+      "task": "FEAT-REC-003 stop_recording",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Recording (opt.)",
+      "task": "FEAT-REC-004 API Recording Steuerung",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "CLI (opt.)",
+      "task": "FEAT-CLI-001 cli_main",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Lizenz/Hinweise",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Hardware",
+      "task": "Zusammenbau",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Tests",
+      "task": "Validierung vs. NTi XL2",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Präsentationsvorbereitung",
+      "start": "2026-06-26",
+      "end": "2026-07-02"
+    },
+    {
+      "phase": "Präsentation",
+      "task": "Review #4 vorbereiten",
+      "start": "2026-06-26",
+      "end": "2026-06-29"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-06-29",
+      "label": "Review #4"
+    },
+    {
+      "date": "2026-06-30",
+      "label": "Semesterende"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "phase_order": [
+    "Audioeingang",
+    "Signal",
+    "Spektrum",
+    "Kalibrierung",
+    "API",
+    "UI",
+    "Export",
+    "Recording (opt.)",
+    "CLI (opt.)",
+    "Dokumentation",
+    "Hardware",
+    "Tests",
+    "Präsentation"
+  ],
+  "phase_colors": {
+    "Audioeingang": "#4e79a7",
+    "Signal": "#59a14f",
+    "Spektrum": "#9c755f",
+    "Kalibrierung": "#f28e2b",
+    "API": "#76b7b2",
+    "UI": "#edc948",
+    "Export": "#af7aa1",
+    "Recording (opt.)": "#ff9da7",
+    "CLI (opt.)": "#bab0ac",
+    "Dokumentation": "#86bc86",
+    "Hardware": "#d37295",
+    "Tests": "#8cd3ff",
+    "Präsentation": "#c0c0c0"
+  },
+  "tasks": [
+    {
+      "phase": "Audioeingang",
+      "task": "FEAT-AUD-004 start/stop_audio_pipeline",
+      "start": "2026-05-22",
+      "end": "2026-05-28"
+    },
+    {
+      "phase": "Audioeingang",
+      "task": "FEAT-AUD-005 convert_int24_to_float32",
+      "start": "2026-05-22",
+      "end": "2026-05-28"
+    },
+    {
+      "phase": "Signal",
+      "task": "FEAT-SIG-001 compute_rms",
+      "start": "2026-05-22",
+      "end": "2026-05-28"
+    },
+    {
+      "phase": "Signal",
+      "task": "FEAT-SIG-002 compute_spl_db",
+      "start": "2026-05-22",
+      "end": "2026-05-28"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Testplan",
+      "start": "2026-05-22",
+      "end": "2026-05-28"
+    },
+    {
+      "phase": "Dokumentation",
+      "task": "Anforderungen pflegen",
+      "start": "2026-05-22",
+      "end": "2026-05-28"
+    },
+    {
+      "phase": "Tests",
+      "task": "Unit‑Tests",
+      "start": "2026-05-22",
+      "end": "2026-05-28"
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2026-05-18",
+      "label": "Zwischenbericht #1"
+    },
+    {
+      "date": "2026-06-01",
+      "label": "Review #2"
+    },
+    {
+      "date": "2026-06-15",
+      "label": "Review #3"
+    },
+    {
+      "date": "2026-06-29",
+      "label": "Review #4"
+    },
+    {
+      "date": "2026-06-30",
+      "label": "Semesterende"
+    },
+    {
+      "date": "2026-07-04",
+      "label": "Abgabe 00:01"
+    }
+  ]
+}

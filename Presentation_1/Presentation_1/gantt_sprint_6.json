@@ -1,0 +1,43 @@
+{
+  "phase_order": [
+    "Konzept",
+    "Prototyping",
+    "Producing",
+    "Testing",
+    "Finalisierung"
+  ],
+  "phase_colors": {
+    "Konzept": "#4e79a7",
+    "Prototyping": "#C20E1A",
+    "Producing": "#ff8c00",
+    "Testing": "#F1C40F",
+    "Finalisierung": "#2ca02c"
+  },
+  "tasks": [],
+  "milestones": [
+    {
+      "date": "2026-05-18",
+      "label": "Zwischenbericht #1"
+    },
+    {
+      "date": "2026-06-01",
+      "label": "Review #2"
+    },
+    {
+      "date": "2026-06-15",
+      "label": "Review #3"
+    },
+    {
+      "date": "2026-06-29",
+      "label": "Review #4"
+    },
+    {
+      "date": "2026-06-30",
+      "label": "Semesterende"
+    },
+    {
+      "date": "2026-07-04",
+      "label": "Abgabe 00:01"
+    }
+  ]
+}
